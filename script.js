@@ -1,4 +1,10 @@
-function calc ( a= 2, b= 0) {
-    return (2* (a + b));
+function run (){
+    try{
+        return 100;
+    }
+    finally{
+        return 200 ;
+    }
 }
-console.log(calc (2, 3));
+const output = run();
+console.log(output);
