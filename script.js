@@ -1,3 +1,4 @@
-let x=1;
-let y = 2;
-console.log(x+y);
+function calc ( a= 2, b= 0) {
+    return (2* (a + b));
+}
+console.log(calc (2, 3));
