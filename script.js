@@ -30,7 +30,7 @@ p.innerText='amet consectetur adipisicing elit. Quae, sint odio quisquam accusam
 newArtical.appendChild(h3);
 newArtical.appendChild(p);
 const ourBlogs=document.getElementById('our-blogs');
-ourBlogs.appendChild(newArtical)
+ourBlogs.appendChild(newArtical);
 newArtical.innerHTML=`
 <h3>Welcome to our templeating blog element</h3>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, sint odio quisquam accusamus natus voluptates iusto nihil sit dignissimos commodi fuga nulla atque magni dolorum molestiae iure asperiores, dolores fugit eum enim? Dolorum corporis nulla hic vero molestias commodi iste modi, exercitationem, accusantium fugiat itaque ab consequuntur minus reiciendis. Temporibus error non alias necessitatibus vero sed rerum quis quod molestias, minus </p>
@@ -41,6 +41,15 @@ for(const blogArtical of blogs){
     blogArtical.style.padding='10px 5px';
     blogArtical.style.border='5px solid salmon';
     blogArtical.style.width='100%';
-    
-    
+    blogArtical.style.background='purple';
+    blogArtical.style.color='white';
+    blogArtical.style.marginTop='50px';
+       
+}
+const another =document.getElementsByTagName('h3');
+for (const h3 of another){
+    h3.style.textAlign='center';
+    h3.style.fontSize='25px';
+    h3.style.color='black';
+
 }
