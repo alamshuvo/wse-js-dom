@@ -21,7 +21,7 @@ ul.appendChild(li);
 
 //making artical 
 
-const newArtical=document.createElement('artical');
+const newArtical=document.createElement('article');
 newArtical.classList.add('blogArtical');
 const h3=document.createElement('h3');
 h3.innerText='My costom new blog heading';
